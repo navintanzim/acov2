@@ -9,7 +9,7 @@
 
 ## How to run this application
 
-The second part of the program (map api) is located in:  https://github.com/navintanzim/aco-php.
+The second part of the program (map api) is located in:  https://github.com/navintanzim/aco-map-api.
 
 <b> YOU MUST HAVE BOTH PARTS OF THE PROGRAM RUNNING TO PROPERLY USE THIS SYSTEM.</b>
 
