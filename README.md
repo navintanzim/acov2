@@ -7,59 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## How to run this application
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The second part of the program (map api) is located in:  https://github.com/navintanzim/aco-php.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<b> YOU MUST HAVE BOTH PARTS OF THE PROGRAM RUNNING TO PROPERLY USE THIS SYSTEM.</b>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+To run the map api part, run the command: "php yii serve" in your shell.
 
-## Learning Laravel
+A user has to register himself with his name, email and password to access the system. The dashboard page was designed to have only 2 menus; the dashboard itself and the map api. A user could also check his profile by clicking on the ribbon on the top right corner of the screen. He could edit his profile, change his password, log out or even delete his account from there. The map option was designed to take a user to a page with an input form. The input could accept image files and send it to the api part of the system. Once an image file was selected, a user would press the upload button. The interface would then send that image file to the API and also keep a copy of the file in its own storage. After the file is saved on the map api, the interface would automatically redirect itself to the path finding system. Once on the system, a user can check his previously uploaded maps on a list. The maps can be deleted if deemed unnecessary. New image files can also be directly uploaded by an input system on the right side of the page. The users can go back to the interface by clicking on the option “Go back to Main Page”. It would take them back to the dashboard page.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The users can select a map from the stored files and specify how nodes would be detected on the image. If a user selects the option to specify the colour of the nodes, three additional input boxes would appear. They would take the RGB value of the colour the nodes are expected to represent. Once that is specified, clicking on the button “Build a path” would activate the algorithm and generate an optimal route through the nodes.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+A demo video showing the whole process is given at the file: demo video.wmv in the root directory (https://github.com/navintanzim/acov2/blob/main/demo%20video.wmv)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Built by Mashrure Tanzim
 
 ## License
 
